@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Index</title>
+
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <a href="#"><li>Form</li></a>
+          <a href="html/table.html"><li>Table</li></a>
+          <a href="html/picture.html"><li>Picture</li></a>
+          <a href="html/picturetable.html"><li>Picture Table</li></a>
+        </ul>
+      </nav>
+    </header>
+    <h1>Simple Form</h1>
+    <form method="post" action="https://www.w3schools.com/action_page.php">
+      #this is a test server to receive inputs and make sure stuff works
+      <input type="text" name="first_name" placeholder="First Name"/>
+      <input type="text" name="last_name" placeholder="Last Name"/>
+      <input type="text" name="message" placeholder="Write a message..."/>
+      <input type="text" name="password" placeholder="Password"/>
+      <input type="text" name="password_check" placeholder="Re-type Password"/>
+      <!--autocomplete="none" will kill autofilling
+      <input required/> will tell the browser that it can't
+      submit without filling it -->
+      <div>
+        <input type="radio" value="Male" name="gender">
+        <label for="male" >Male</label>
+        <input type="radio" value="Female" name="gender">
+        <label for="female" >Female</label>
+        <!--angry gender norms-->
+      </div>
+      <input type="submit"  value="Submit">
+    </form>
+    <link rel="stylesheet" href="css/main.css">
+  </body>
+</html>
